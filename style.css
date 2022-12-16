@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+* {
+   margin: auto;
+   padding: 0;
+
+}
+
+header h1 {
+   text-align: center;
+   color: azure;
+   font-size: xxx-large;
+   font-family: 'EB Garamond', serif;
+   text-shadow: -3px 3px 1px gray;
+
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background-image: url('imgs_Stickers/background/6629ac69eee96adbe0880b4f06afdc26.gif');
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+div {
+
+   flex-direction: column;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+span {
+   z-index: 1;
+   top: 118px;
+   left: 90px;
+   display: flex;
+   text-align: center;
+   color: transparent;
+   background-color: #fff;
+   position: relative;
+   border-radius: 50px;
+   height: 30px;
+   width: 20px;
+   box-shadow: -1px 0px 15px #fff;
+}
+
+.fundo a {
+   font-family: 'EB Garamond', serif;
+   font-size: x-large;
+   color: #fff;
+   text-align: center;
+   font-style: italic;
+   text-shadow: 1px -1px 10px gray;
+   background: #000;
+   width: 232px;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+   margin-top: 90px;
+}
+
+
+.fundo {
+   margin-top: 600px;
+   position: fixed;
+   padding-top: 30px;
+   border: 4px solid #000;
+   border-bottom-right-radius: 30px;
+   width: 250px;
+   height: 235px;
+   padding-bottom: 2px;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+   border-bottom-left-radius: 30px;
+   background: #252525;
+   border-left: 60px;
+   padding-bottom: 160px;
+   box-shadow: 8px -8px 0px #000;
+}
+
+img {
+   border: 11px solid #000;
+   width: 210px;
+   animation: imgs 4.8ms linear infinite;
+   transition: ease;
+}
+
+@keyframes imgs {
+   25% {
+      filter: brightness(95%);
+
+   }
+
+   50% {
+      filter: brightness(85%);
+
+   }
+
+   100% {
+      filter: brightness(100%);
+
+   }
+}
+
+.bntsdirection {
+   top: 10px;
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   margin-right: 170px;
+
+}
+
+#left {
+   width: 0;
+   height: 0;
+   border-top: 23px solid transparent;
+   border-bottom: 23px solid transparent;
+   border-right: 23px solid #000;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+
+#right {
+   margin-left: 10px;
+   width: 0px;
+   height: 0px;
+   border-top: 23px solid transparent;
+   border-bottom: 23px solid transparent;
+   border-left: 23px solid #000;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+
+button {
+   width: 50px;
+   margin-left: 5px;
+   border: 2.5px solid transparent;
+   background-color: #252525;
+   color: transparent;
+   cursor: pointer;
+}
+
+/* Auto Pause */
+.bnts {
+   top: -25px;
+   position: relative;
+   flex-direction: row;
+   margin-left: 190px;
+   margin-right: 40px;
+   border: 2px solid rgb(113, 111, 111);
+   border-radius: 30px;
+   transform: rotate(-45deg);
+}
+
+
+.bnts button:nth-child(odd) {
+   height: 29px;
+   width: 29px;
+   border-radius: 29px;
+   background-color: rgb(255, 24, 24);
+   position: relative;
+   right: 8px;
+   box-shadow: -1px 1px 8px red;
+   border: 2.8px solid #252525;
+   border-top: 60px;
+   border-left: 60px;
+}
+
+.bnts button:nth-child(even) {
+   height: 29px;
+   width: 29px;
+   border-radius: 29px;
+   background-color: rgb(7, 218, 7);
+   box-shadow: 1px 1px 8px green;
+   border: 2.9px solid #252525;
+   border-top: 60px;
+   border-left: 60px;
+}
+
+.bnts button:hover {
+   border: 1.8px solid #252525;
+   border-top: 60px;
+   border-left: 60px;
+}
+
+#range {
+   padding: 6px;
+   display: flex;
+   z-index: 1;
+   overflow: hidden;
+   outline: none;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
+[type="range"] {
+   width: 4.05cm;
+   border: 6.5px solid #000;
+   background-color: rgb(27, 26, 26);
+   appearance: none;
+   height: 10px;
+   transform: scale(1.3);
+   -webkit-transition: 0.2s;
+   transition: opacity 0.2s;
+
+}
+
+#range::-webkit-slider-thumb {
+   appearance: none;
+   height: 15px;
+   width: 15px;
+   border: 2px solid gray;
+   background-color: rgb(227, 241, 255);
+   position: relative;
+   left: 6px;
+   border-radius: 30px;
+   cursor: pointer;
+   box-shadow: -407px 0 0 400px rgb(212, 212, 212);
+}
+
+h3 {
+   top: 5px;
+   position: relative;
+   text-align: center;
+   color: azure;
+   font-size: x-large;
+   font-family: 'EB Garamond', serif;
+   text-shadow: -3px 1px 1px gray;
+}

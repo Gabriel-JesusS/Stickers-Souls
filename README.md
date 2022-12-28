@@ -5,4 +5,4 @@
 <h2>Descrição do projeto:</h2>
 <p>ele mostra de uma forma divertida imagens/"Stickers" do jogo dark souls, através de um "Game Boy" feito com CSS. Eles são mostrados através do click dos botões ou pelo controle do range</P>
 <h2>Link do Site:<h2>
-<link></link>
+<link>https://gjsouls.github.io/Stickers-Souls/</link>

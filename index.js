@@ -1,4 +1,4 @@
-//imports.
+//imports..
 import Stickers from './stickers.js';
 
 const stickers = document.querySelector('#screen');
